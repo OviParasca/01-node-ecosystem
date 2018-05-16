@@ -1,0 +1,11 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "401d24 lab 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "./01-node-ecosystem/lab-Ovi/test/lib/greet.test.js --verbose --coverage"
+  },
+  "author": "Ovidiu Parasca",
+  "license": "ISC"
+}
