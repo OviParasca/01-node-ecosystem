@@ -4,8 +4,8 @@
   "description": "401d24 lab 01",
   "main": "index.js",
   "scripts": {
-    "test": "./01-node-ecosystem/lab-Ovi/test/lib/greet.test.js --verbose --coverage, ./01-node-ecosystem/lab-Ovi/test/lib/arithmetic.test.js --verbose --coverage",
-    "lint" : "eslint **/*.js"
+    "test": "./01-node-ecosystem/lab-Ovi/test/lib/greet.test.js --verbose --coverage",
+    "lint": "eslint **/*.js"
   },
   "author": "Ovidiu Parasca",
   "license": "ISC",
