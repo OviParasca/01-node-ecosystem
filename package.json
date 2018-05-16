@@ -4,13 +4,12 @@
   "description": "401d24 lab 01",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./01-node-ecosystem/lab-Ovi/test/lib/greet.test.js --verbose --coverage",
+    "test": "node ./lab-Ovi/test/lib/greet.test.js ./lab-Ovi/test/lib/arithmetic.test.js",
     "lint": "eslint **/*.js"
   },
   "author": "Ovidiu Parasca",
   "license": "ISC",
   "dependencies": {
-    "jest": "^22.4.3",
     "eslint": "^4.19.1"
   }
 }
