@@ -10,6 +10,10 @@
     "test": "node ./lab-Ovi/test/lib/greet.test.js && node ./lab-Ovi/test/lib/arithmetic.test.js",
     "lint": "eslint **/*.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OviParasca/01-node-ecosystem.git"
+  },
   "author": "Ovidiu Parasca",
   "license": "ISC",
   "dependencies": {
