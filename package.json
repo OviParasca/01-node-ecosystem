@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node ./lab-Ovi/test/lib/greet.test.js && ./lab-Ovi/test/lib/arithmetic.test.js",
+    "test": "node 01-node-ecosystem/lab-Ovi/test/lib/greet.test.js",
     "lint": "eslint **/*.js"
   },
   "repository": {
