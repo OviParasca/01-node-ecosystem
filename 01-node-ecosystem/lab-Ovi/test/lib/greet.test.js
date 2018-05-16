@@ -2,7 +2,7 @@
 const greet = require('../../lib/greet.js');
 const assert = require('assert');
 
-let nameMessage = greet.sayHello("World");
+let nameMessage = greet.sayHello('World');
 assert.strictEqual(nameMessage, 'Hello World', 'Does Not Match');
 
 nameMessage = greet.sayHello(123);
