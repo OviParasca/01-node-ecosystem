@@ -47,5 +47,15 @@ Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module
   * `if` either argument is a non-number the function should return `null`
   * `else` return the second parameter subtracted from the first parameter
 
-### Documentation
-In your README.md file, include a "Travis Badge" linking to your test build and describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
+<br />
+<br />
+
+## Unit tests
+
+* For the greet.test.js I tested happy-path by using the name "World", and the expected output being "Hello World".
+* For the unhappy-path I tested a number (123) for the name and the expected output is null.
+
+* For the arithmetic.test.js I tested happy-path for the addition by adding 2 numbers (2 + 3) and the expected output is 5, and for the subtraction happy-path I subtracted 2 from 5 and got the exptected result of 3.
+* For the unhappy-path I tried to add and subtract a number and a letter and got the exptected output of null.
+
+![image](https://travis-ci.com/OviParasca/01-node-ecosystem.svg?branch=master)
